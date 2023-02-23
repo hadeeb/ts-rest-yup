@@ -1,0 +1,24 @@
+{
+  "name": "@hadeeb/ts-rest-yup",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Use Yup schemas in ts-rest",
+  "keywords": [
+    "ts-rest",
+    "yup",
+    "zod"
+  ],
+  "files": [
+    "index.js",
+    "types.d.ts"
+  ],
+  "author": {
+    "name": "Hadeeb Farhan",
+    "url": "https://github.com/hadeeb"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@ts-rest/core": "^3.17.0",
+    "yup": "^1.0.0"
+  }
+}
