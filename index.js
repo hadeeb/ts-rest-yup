@@ -1,6 +1,6 @@
 // @ts-check
 
-/**@param {typeof import("yup")} yup */
+/**@type {import(".").Yup2Zod} */
 const Yup2Zod = (yup) => {
   yup.addMethod(/**@type {any}*/ (yup.Schema), "safeParse", function (value) {
     try {
